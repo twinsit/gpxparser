@@ -1,0 +1,38 @@
+/* 
+    Document   : style
+    Created on : 31-mag-2011, 19.46.14
+    Author     : Vittorio
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+root { 
+    display: block;
+}
+
+.main {
+    background-color: white;
+    color: black;    
+}
+#main-2 {
+    margin: auto;
+    width: 100%;
+}
+
+#extjs_div {
+    margin: auto;
+    padding: inherit;
+    width: 100%;
+}
+
+#main-panel td {
+    padding:5px;
+}
+
+
+

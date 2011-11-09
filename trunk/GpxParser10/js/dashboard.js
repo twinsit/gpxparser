@@ -368,7 +368,7 @@ Ext.onReady(function(){
                 var form = this.up('form').getForm();
                 var values = form.getValues();
                 //alert(form.getValues('gpxName'));
-                initialize("Tracks/" + values.gpxName);
+                initialize("tracks/" + values.gpxName);
                 gpxStore.load({url: "getGpxData.php?filename=" + values.gpxName});
             }
         }]

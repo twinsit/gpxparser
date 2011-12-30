@@ -101,7 +101,11 @@ class gpxArray {
      */
     function getTtkseg() {
         
-        $trkseg = $this->trk[2 + $this->lastTrkseg]['child'];
+        /* Fix to support Garmin - only for one track segment */
+        $trkseg = $this->trk[1]['child'];
+	
+        if (! $trkseg)
+            $trkseg = $this->trk[2 + $this->lastTrkseg]['child'];
         
         if ($trkseg == NULL)
             return NULL;

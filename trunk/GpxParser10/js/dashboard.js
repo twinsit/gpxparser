@@ -418,12 +418,12 @@ Ext.onReady(function(){
                     });
                 }
             }
-        }/*,{
+        },{
             text: 'Reset',
             handler: function() {
                 this.up('form').getForm().reset();
             }
-        }*/]
+        }]
     });
     
     var mapsPanel = new Ext.form.Panel ({

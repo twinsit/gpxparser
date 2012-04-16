@@ -44,7 +44,6 @@ class TracksController extends AppController{
         $this->layout = "ajax";
         $this->Track->id = $id;
         $this->set('track', $this->Track->read());
-        $this->set('cippalippa', "questa è una prova per una nuova variabile!!!");
     }
 }
 

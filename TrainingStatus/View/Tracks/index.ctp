@@ -1,6 +1,13 @@
 <!-- File: /app/View/Posts/index.ctp -->
 
 <h1>Blog posts</h1>
+<?php
+echo $this->Form->create('Track', array('action' => 'upload', 'type' => 'file'));
+echo $this->Form->input('Upload File');
+echo $this->Form->input('file', array('type' => 'file'));
+echo $this->Form->end('Save Post');
+?>
+
 <table>
     <tr>
         <th>Id</th>

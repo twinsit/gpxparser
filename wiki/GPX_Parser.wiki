@@ -1,17 +1,19 @@
 #summary One-sentence summary of this page.
 
-= INTRODUCTION =
+= GPX Parser =
 
-= UPLOAD FILE =
+== INTRODUCTION ==
 
-= PROCESSING FILE =
+== UPLOAD FILE ==
 
-= DASHBOARD =
+== PROCESSING FILE ==
 
-= ALTIMETRY =
+== DASHBOARD ==
 
-= FUTURE =
+== ALTIMETRY ==
+
+== FUTURE ==
 
 See Training Status Project, an evolution and improvement of GPX Parser.
 
-= CONCLUSION =
+== CONCLUSION ==
